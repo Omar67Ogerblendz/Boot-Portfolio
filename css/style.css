@@ -6,3 +6,11 @@
   color: #00bfff !important;
   transform: scale(1.1);
 }
+.carousel-item {
+     height: 600px;
+ }
+
+ .carousel-item img {
+     height: 100%;
+     object-fit: cover;  /* Prevents stretching by cropping the edges */
+ }
